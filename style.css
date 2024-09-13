@@ -1,0 +1,139 @@
+body {
+
+    background-color: #8BA1BB !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.finger-paint-regular {
+    font-family: "Finger Paint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Finger Paint", sans-serif;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+div.contenu {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0, 0.1);
+    overflow: visible;
+
+}
+
+.centre {
+    text-align: center;
+}
+
+p.categorie {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 8px 18px;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.categorie {
+    margin-bottom: -0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+div.separateur {
+    background-color: black;
+    width: 100px;
+    height: 1px;
+    margin: 0px auto;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+table.info {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: #6C829DC0;
+    height: 80px;
+    text-align: center;
+}
+
+table.info td {
+    font-size: 14px;
+    vertical-align: top;
+}
+
+table.info th {
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+div.info {
+    position: relative;
+}
+
+img.info {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgrey;
+}
+
+
+div.cl {
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.cl1 h6,
+.cl2 h6,
+.wrapper h6 {
+    font-family: "Finger Paint", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0;
+    white-space: nowrap;
+}
+
+.wrapper {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    box-sizing: border-box;
+    font-family: initial;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+legend {
+    white-space: nowrap !important;
+    min-width: 150px;
+}
+
+fieldset{
+    margin-top: 15px !important;
+}
+
